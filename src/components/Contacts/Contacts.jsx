@@ -9,7 +9,7 @@ const Contacts = ({ contacts, loading, confirmDeteleContact }) => {
         <div className="grid">
           <div className="row">
             <div className="col">
-              <p className="h3">
+              <p className="h3 float-end">
                 <Link
                   to={"/contacts/add"}
                   className="btn mx-2"
