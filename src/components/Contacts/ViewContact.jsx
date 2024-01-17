@@ -7,15 +7,7 @@ import { getContact, getGroup } from "../../services/contactService";
 const ViewContact = () => {
   const { contactId } = useParams();
   const [loading, setLoading] = useState(false);
-  const [contact, setContact] = useState({
-    fullname: "",
-    photo: "",
-    mobile: "",
-    email: "",
-    job: "",
-    group: "",
-  });
-
+  const [contact, setContact] = useState({});
   const [groupName, setGroupName] = useState("");
 
   useEffect(() => {

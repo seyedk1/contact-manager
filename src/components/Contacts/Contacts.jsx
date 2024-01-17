@@ -2,7 +2,7 @@ import { Contact, Spinner } from "../index";
 import { CURRENTLINE, ORANGE, PINK } from "../../helpers/colors";
 import { Link, Outlet } from "react-router-dom";
 
-const Contacts = ({ contacts, loading }) => {
+const Contacts = ({ contacts, loading, confirmDeteleContact }) => {
   return (
     <>
       <section className="container">
@@ -31,7 +31,15 @@ const Contacts = ({ contacts, loading }) => {
             <div className="row">
               {/* Contact */}
               {contacts.length > 0 ? (
-                contacts.map((c) => <Contact key={c.id} contact={c} />)
+                contacts.map((c) => (
+                  <Contact
+                    key={c.id}
+                    confirmDeteleContact={() => {
+                      confirmDeteleContact(c.id, c.fullname);
+                    }}
+                    contact={c}
+                  />
+                ))
               ) : (
                 <div
                   className="text-center py-5"
