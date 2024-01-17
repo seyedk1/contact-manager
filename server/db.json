@@ -6,7 +6,7 @@
       "mobile": "09305107724",
       "email": "seyed.keyvan.nobakht@hotmail.com",
       "job": "توسعه دهنده فرانت اند",
-      "group": "1",
+      "group": "2",
       "id": 1
     },
     {
@@ -35,15 +35,6 @@
       "job": "برنامه نویس و مدرس",
       "group": "2",
       "id": 4
-    },
-    {
-      "fullname": "حسن خسروجردی",
-      "photo": "https://toplearn.com/img/user/teachers/268_2b05b90b-7a78-4e35-058f-39e6b8cf2ac1_%D8%AD%D8%B3%D9%86%20_%D8%AE%D8%B3%D8%B1%D9%88%D8%AC%D8%B1%D8%AF%DB%8C.jpeg",
-      "mobile": "09309987654",
-      "email": "khosrojerdi@gmail.com",
-      "job": "توسعه دهنده فول استک و مدرس",
-      "group": "1",
-      "id": 5
     }
   ],
   "groups": [
